@@ -142,22 +142,22 @@
    </LINK>
    <LINK dstnodeid="8" dstpinname="r" srcnodeid="22" srcpinname="Y Output Value">
    </LINK>
-   <NODE systemname="FileTexture (EX9.Texture)" nodename="FileTexture (EX9.Texture)" componentmode="Hidden" id="24">
-   <BOUNDS type="Node" left="3630" top="3990" width="100" height="100">
+   <NODE componentmode="Hidden" id="24" nodename="FileTexture (EX9.Texture)" systemname="FileTexture (EX9.Texture)">
+   <BOUNDS height="100" left="3630" top="3990" type="Node" width="100">
    </BOUNDS>
    <PIN pinname="Texture Out" visible="1">
    </PIN>
    <PIN pinname="Reload" slicecount="1" values="0">
    </PIN>
    </NODE>
-   <LINK srcnodeid="24" srcpinname="Texture Out" dstnodeid="8" dstpinname="Texture">
+   <LINK dstnodeid="8" dstpinname="Texture" srcnodeid="24" srcpinname="Texture Out">
    </LINK>
-   <NODE nodename="IOBox (String)" componentmode="InABox" id="26" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="3600" top="3570" width="1935" height="270">
+   <NODE componentmode="InABox" id="26" nodename="IOBox (String)" systemname="IOBox (String)">
+   <BOUNDS height="270" left="3600" top="3570" type="Node" width="1935">
    </BOUNDS>
-   <BOUNDS type="Box" left="3600" top="3570" width="1935" height="270">
+   <BOUNDS height="270" left="3600" top="3570" type="Box" width="1935">
    </BOUNDS>
-   <PIN pinname="Input String" visible="0" slicecount="1" values="|Uses a static picture here|" encoded="0">
+   <PIN encoded="0" pinname="Input String" slicecount="1" visible="0" values="|Uses a static picture here|">
    </PIN>
    <PIN pinname="Output String" visible="0">
    </PIN>
@@ -166,36 +166,36 @@
    <PIN pinname="String Type" slicecount="1" values="MultiLine">
    </PIN>
    </NODE>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="28" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="4065" top="4410" width="0" height="0">
+   <NODE componentmode="InABox" id="28" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="0" left="4065" top="4410" type="Node" width="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="4065" top="4410" width="795" height="240">
+   <BOUNDS height="240" left="4065" top="4410" type="Box" width="795">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="2.28">
    </PIN>
-   <PIN pinname="Units" slicecount="1" values="||" encoded="0">
+   <PIN encoded="0" pinname="Units" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Precision" slicecount="1" values="4">
    </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="scale" encoded="0">
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="scale">
    </PIN>
    </NODE>
-   <LINK srcnodeid="28" srcpinname="Y Output Value" dstnodeid="8" dstpinname="scale">
+   <LINK dstnodeid="8" dstpinname="scale" srcnodeid="28" srcpinname="Y Output Value">
    </LINK>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="29" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="4470" top="4890" width="0" height="0">
+   <NODE componentmode="InABox" id="29" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)">
+   <BOUNDS height="0" left="4470" top="4890" type="Node" width="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="4470" top="4890" width="795" height="240">
+   <BOUNDS height="240" left="4470" top="4890" type="Box" width="795">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="0.29">
    </PIN>
-   <PIN pinname="Units" slicecount="1" values="||" encoded="0">
+   <PIN encoded="0" pinname="Units" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Precision" slicecount="1" values="4">
    </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="power" encoded="0">
+   <PIN encoded="0" pinname="Descriptive Name" slicecount="1" values="power">
    </PIN>
    </NODE>
-   <LINK srcnodeid="29" srcpinname="Y Output Value" dstnodeid="8" dstpinname="power">
+   <LINK dstnodeid="8" dstpinname="power" srcnodeid="29" srcpinname="Y Output Value">
    </LINK>
    </PATCH>
